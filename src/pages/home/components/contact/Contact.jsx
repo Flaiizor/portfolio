@@ -21,7 +21,7 @@ export default function Contact() {
                 <img src={githubIcon} alt="GitHub" className="contact-icon" />
                 GitHub
             </a>
-            <a href="/CV_temp.pdf" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <a href="/CV.pdf" target="_blank" rel="noopener noreferrer" className="contact-item">
                 <img src={cvIcon} alt="CV" className="contact-icon" />
                 CV
             </a>
