@@ -26,7 +26,7 @@ const projects = [
         title: "A Personal Portfolio Website",
         description: "A website I made for myself to better my skills of frontend development. I am always ready to learn (or re-learn) new skills!",
         technologies: ["JavaScript", "React", "HTML", "CSS", "AWS"],
-        github:"",
+        github:"https://github.com/Flaiizor/portfolio",
         paper: ""
     }
 ];
