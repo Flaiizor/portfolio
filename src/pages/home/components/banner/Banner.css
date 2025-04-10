@@ -1,5 +1,4 @@
 .banner {
-    /* background-color: #353535; */
     color: white;
     font-size: 1.8rem;
     font-weight: bold;
@@ -11,15 +10,15 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    flex-wrap: wrap; /* Ensure they wrap on smaller screens */
+    flex-wrap: wrap;
 }
 
 .banner a {
     font-size: 1.2rem;
     margin-top: 10px;
+    transition: color 0.3s ease;
 }
 
 .banner a:hover {
     color: #f39c12;
-    text-decoration: underline;
 }

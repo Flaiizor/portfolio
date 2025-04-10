@@ -17,6 +17,7 @@
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 .contact-item {
@@ -35,7 +36,6 @@
 
 .contact a:hover {
     color: #f39c12;
-    text-decoration: underline;
 }
 
 @media (max-width: 768px) {

@@ -28,6 +28,14 @@ const projects = [
         technologies: ["JavaScript", "React", "HTML", "CSS", "AWS"],
         github:"https://github.com/Flaiizor/portfolio",
         paper: ""
+    },
+    {
+        type: "Semester Project",
+        title: "TRACE-Q: Trajectory Reduction using Accuracy Control for Reliable Querying",
+        description: "8th semester project, focused on trajectory simplification while maintaining high queryability. I was mainly in charge of setting up the various endpoints of the API using Boost Beast. ",
+        technologies: ["C++"],
+        github:"https://github.com/KarmaKamikaze/TRACE-Q",
+        paper: "/P8_project.pdf"
     }
 ];
 
