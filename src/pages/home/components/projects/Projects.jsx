@@ -19,7 +19,6 @@ const projects = [
         description: "When exercising, especially during indoor machine cardio, many make exercising more enjoyable by watching TV shows or other forms of visual content. However, the current viewing experience is poor, as people use their phone with a small screen. In our research, we investigate the use of Augmented Reality to achieve the best viewing experience for cardio exercise, by dynamically adjusting screen size based on exercise intensity.",
         technologies: ["C#", "Unity", "Python"],
         github:"https://github.com/Kristoffermg/ARVid",
-        paper: ""
     },
     {
         type: "Personal Project",
@@ -27,7 +26,6 @@ const projects = [
         description: "A website I made for myself to better my skills of frontend development. I am always ready to learn (or re-learn) new skills!",
         technologies: ["JavaScript", "React", "HTML", "CSS", "AWS"],
         github:"https://github.com/Flaiizor/portfolio",
-        paper: ""
     },
     {
         type: "Semester Project",
@@ -35,7 +33,7 @@ const projects = [
         description: "8th semester project, focused on trajectory simplification while maintaining high queryability. I was mainly in charge of setting up the various endpoints of the API using Boost Beast. ",
         technologies: ["C++"],
         github:"https://github.com/KarmaKamikaze/TRACE-Q",
-        paper: "/P8_project.pdf"
+        paper: "/Trace-Q_Paper.pdf"
     }
 ];
 
@@ -49,23 +47,26 @@ export default function Projects() {
                         <h1>{project.type}</h1>
                         <h2>{project.title}</h2>
                         <p>{project.description}</p>
-                        <ul>
-                            {project.technologies.map((tech, i) => (
-                                <li key={i}>{tech}</li>
-                            ))}
-                        </ul>
-                        {project.github && (
-                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="github-link">
-                                <img src={githubIcon} alt="GitHub" className="projects-icon" />
-                                View on GitHub
-                            </a>
-                        )}
-                        {project.paper && (
-                            <a href={project.paper} target="_blank" rel="noopener noreferrer" className="paper-link">
-                                <img src={pdfIcon} alt="PDF" className="projects-icon" />
-                                Read Paper
-                            </a>
-                        )}
+
+                        <div className="card-footer">
+                            <ul>
+                                {project.technologies.map((tech, i) => (
+                                    <li key={i}>{tech}</li>
+                                ))}
+                            </ul>
+                            {project.github && (
+                                <a href={project.github} target="_blank" rel="noopener noreferrer" className="link-button github-link">
+                                    <img src={githubIcon} alt="GitHub" className="projects-icon" />
+                                    GitHub
+                                </a>
+                            )}
+                            {project.paper && (
+                                <a href={project.paper} target="_blank" rel="noopener noreferrer" className="link-button paper-link">
+                                    <img src={pdfIcon} alt="PDF" className="projects-icon" />
+                                    Paper
+                                </a>
+                            )}
+                        </div>
                     </div>
                 ))}
             </div>
