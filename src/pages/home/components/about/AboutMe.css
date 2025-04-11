@@ -2,7 +2,7 @@
 .about-container {
     max-width: 800px;
     margin: 50px auto;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     font-family: "Arial", sans-serif;
     color: white;
