@@ -1,4 +1,4 @@
-/* Navbar Container */
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -9,7 +9,6 @@
     font-family: Arial, sans-serif;
 }
 
-/* Left-side logo/name */
 .nav a {
     font-size: 1.5rem;
     font-weight: bold;
@@ -22,7 +21,6 @@
     color: #f39c12;
 }
 
-/* Navigation links */
 .nav ul {
     list-style: none;
     display: flex;
@@ -32,7 +30,6 @@
     align-items: center;
 }
 
-/* Individual link */
 .nav ul li a {
     text-decoration: none;
     color: white;
@@ -40,13 +37,10 @@
     transition: color 0.3s ease;
 }
 
-/* Hover effect */
 .nav ul li a:hover {
     color: #f39c12;
 }
 
-
-/* Responsive design */
 @media (max-width: 768px) {
     .nav {
         flex-direction: column;
