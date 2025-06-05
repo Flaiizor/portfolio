@@ -23,7 +23,14 @@ const projects = [
     {
         type: "Personal Project",
         title: "A Personal Portfolio Website",
-        description: "A website I made for myself to better my skills of frontend development. I am always ready to learn (or re-learn) new skills!",
+        description: (
+            <>
+                A website I made for myself to better my skills of frontend development.
+                I am always ready to learn (or re-learn) new skills!
+            <br /><br />
+                Fun fact: This portfolio website has been shamelessly stolen! Check out the copycat <a href="https://www.peterschwartzlauridsen.com/" target="_blank" rel="noopener noreferrer">here</a>!
+            </>
+        ),
         technologies: ["JavaScript", "React", "HTML", "CSS", "AWS"],
         github:"https://github.com/Flaiizor/portfolio",
     },

@@ -38,9 +38,16 @@
     color: #f39c12;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+    .contact {
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 10px;
+    }
+
     .contact-item {
-        font-size: 0.9rem;
+        flex-basis: 21%;
+        justify-content: center;
     }
     .contact-icon {
         width: 20px;
