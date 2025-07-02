@@ -6,19 +6,20 @@ import pdfIcon from "../../images/pdfIcon.png";
 
 const projects = [
     {
+        type: "Master's Thesis",
+        title: "AR for Enhanced Video Viewing During Cardio Exercise",
+        description: "When exercising, especially during indoor machine cardio, many make exercising more enjoyable by watching TV shows or other forms of visual content. However, the current viewing experience is poor, as people use their phone with a small screen. In our research, we investigate the use of Augmented Reality to achieve the best viewing experience for cardio exercise, by dynamically adjusting screen size based on exercise intensity.",
+        technologies: ["C#", "Unity", "Python"],
+        github:"https://github.com/Kristoffermg/AR-for-Enhanced-Video-Viewing-During-Cardio-Exercise",
+        paper: "/master_thesis.pdf"
+    },
+    {
         type: "Bachelor's Project",
         title: "Exploring DETR for Recognition and Detection of Traffic Signs",
         description: "This project is focused on machine vision detecting traffic signs to aid self-driving cars. We explore the viability of the DETR algorithm to perform real-time traffic sign detection. Our findings indicate that, while DETR is able to perform real-time detection, it is not comparable to other state-of-the-art models like YOLO and R-CNN.",
         technologies: ["Python", "PyTorch"],
         github:"https://github.com/Traffic-sign-detection-P6AAU",
         paper: "/Bachelor_project.pdf"
-    },
-    {
-        type: "[ONGOING] Master's Thesis",
-        title: "AR Video Placement During Cardio Exercise",
-        description: "When exercising, especially during indoor machine cardio, many make exercising more enjoyable by watching TV shows or other forms of visual content. However, the current viewing experience is poor, as people use their phone with a small screen. In our research, we investigate the use of Augmented Reality to achieve the best viewing experience for cardio exercise, by dynamically adjusting screen size based on exercise intensity.",
-        technologies: ["C#", "Unity", "Python"],
-        github:"https://github.com/Kristoffermg/ARVid",
     },
     {
         type: "Personal Project",
