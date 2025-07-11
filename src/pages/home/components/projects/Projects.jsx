@@ -23,6 +23,17 @@ const projects = [
     },
     {
         type: "Personal Project",
+        title: "A Yu-Gi-Oh! API application in Java",
+        description: (
+            <>
+                A RESTful API project using the <a href="https://ygoprodeck.com/api-guide/" target="_blank" rel="noopener noreferrer">ygoprodeck api</a>. This project is made in Java using Spring Boot.
+            </>
+        ),
+        technologies: ["Java", "Spring Boot", "REST API"],
+        github:"https://github.com/Flaiizor/yugioh-api",
+    },
+    {
+        type: "Personal Project",
         title: "A Personal Portfolio Website",
         description: (
             <>
