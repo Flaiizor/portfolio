@@ -23,6 +23,13 @@ const projects = [
     },
     {
         type: "Personal Project",
+        title: "A full-stack web application for personal media overview",
+        description: "A full-stack web application that allows users to keep track of their personal media, such as movies, TV shows, and books. The application is built with a React frontend and a Spring Boot backend, utilizing Docker for containerization.",
+        technologies: ["Java", "Spring Boot", "React", "TypeScript", "Docker"],
+        github:"https://github.com/Flaiizor/mediahub",
+    },
+    {
+        type: "Personal Project",
         title: "A Personal Portfolio Website",
         description: (
             <>
