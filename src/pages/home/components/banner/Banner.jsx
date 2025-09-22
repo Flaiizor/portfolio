@@ -9,7 +9,7 @@ import githubIcon from "../../images/githubIcon.png";
 export default function Banner() {
     return (
         <div className="banner">
-            <h1>Software Engineer</h1>
+            <h1>Fullstack Software Engineer</h1>
             <div className="banner-contact">
                 <a href="mailto:martin.l.jacobsen2010@live.dk" className="contact-item">
                     <img src={emailIcon} alt="Email" className="contact-icon" />
