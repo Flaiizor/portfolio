@@ -3,13 +3,17 @@ import "./AboutMe.css";
 
 export default function About() {
     return (
+        <div>
             <div className="about-container">
                 <h1>About Me</h1>
                 <p>
-                    I am a newly graduated software engineer with a master's degree from Aalborg University. 
-                    Through my tenure as a student at Aalborg University, I have gained experience in a number of software technologies. 
-                    My specialities are Java, C#, Python, JavaScript, and React.
+                    I am a software engineer with a masters degree in human-computer interaction. 
+                    I have a great <b>passion for learning</b> and I always strive towards bettering myself in my field.
+                    I love to tinker and learn new technologies, both in a professional setting and at home.
+                    <br/><br/>
+                    I specialize in <b>Python</b>, <b>Java</b>, <b>C#</b>
                 </p>
             </div>
+        </div>
     );
 }
