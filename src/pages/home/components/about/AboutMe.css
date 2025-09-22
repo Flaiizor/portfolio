@@ -5,6 +5,7 @@
     font-family: "Arial", sans-serif;
     color: white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
 }
 
 .about-container h1 {
@@ -32,4 +33,22 @@
     .about-container h2 {
         font-size: 1.5rem;
     }
+}
+
+.tech-stack {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tech-stack p {
+    line-height: 0;
+}
+
+.tech-stack-icon {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 10%;
 }
