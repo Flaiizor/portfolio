@@ -97,7 +97,7 @@ const projects = [
             </>
         ),
         technologies: ["Python/Django", "JavaScript", "SQLite", "HTML", "Bootstrap"],
-        github:"https://github.com/Flaiizor/yugioh-api",
+        github:"https://github.com/Flaiizor/home-helper",
     },
     {
         type: "Semester Project",
